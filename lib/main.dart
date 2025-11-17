@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'bottom_items.dart'; // Import your bottom navigation file
+import 'bottom_items.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Statistics Reporter',
-      home: const BottomNavController(), // Use the widget from bottom_items.dart
+      home: const BottomNavController(),
     );
   }
 }
